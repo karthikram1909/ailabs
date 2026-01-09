@@ -155,7 +155,14 @@ const Selector = () => {
         // Using stripped digits only, as per the working explicit URL provided by user
         const userPhone = userDetails.mobile_number.replace(/\D/g, ''); 
         
-        const userMessage = `Hello ${userDetails.name},\n\nWe have received your implementation audit request for ${userDetails.company_name}.\n\nOur team will review your inputs and reach out shortly to schedule the next steps.\n\n- Everyday AI Labs`;
+        // Format answers for display
+        const diagnosisDetails = questions.map((q, i) => {
+            const answerValue = answers[q.id];
+            const answerLabel = q.options.find(o => o.value === answerValue)?.label || answerValue;
+            return `*${i + 1}. ${q.text}*\n${answerLabel}`;
+        }).join('\n\n');
+
+        const userMessage = `Hello ${userDetails.name},\n\nWe have received your implementation audit request for *${userDetails.company_name}*.\n\n*Your Diagnosis:*\n\n${diagnosisDetails}\n\nOur team will review your inputs and reach out shortly to schedule the next steps.\n\n- *Everyday AI Labs*`;
 
         // Using verified working credentials (from user's tested URL)
         // Sender Instance: 67E0EABCE7C50
