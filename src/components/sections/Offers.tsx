@@ -90,7 +90,7 @@ const Offers = () => {
           className="text-center pt-8"
         >
           <p className="text-muted-foreground/60 text-sm font-light">
-            if the work does not pay us to fix execution, we do not accept it.
+            We don’t stop at ideas. We stay until execution.
           </p>
         </motion.div>
       </div>

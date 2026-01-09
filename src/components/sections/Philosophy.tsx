@@ -24,6 +24,7 @@ const Philosophy = () => {
             <p>over-explain ai</p>
             <p>compete on features</p>
             <p>look busy instead of effective</p>
+            <p>blame you and your team for failure</p>
           </div>
         </motion.div>
 

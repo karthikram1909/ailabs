@@ -20,7 +20,7 @@ const Truth = () => {
           </p>
           
           <p className="text-muted-foreground text-lg md:text-xl font-light">
-            not because they are weak. because they are too good.
+            they are not weak, they are too good.
           </p>
         </motion.div>
 

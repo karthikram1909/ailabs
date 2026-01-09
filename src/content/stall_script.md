@@ -9,7 +9,7 @@ Use this when you have a founder's attention. Do not pitch. Diagnose.
 > "Your best employee might be the reason your system is still broken."
 
 **2. The Reframe (Soften immediately)**
-> "Not because they are weak. Because they are too good."
+> "they are not weak, they are too good."
 
 **3. The Truth**
 > "They keep delivering results despite poor inputs and unclear setup."
