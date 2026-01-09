@@ -160,8 +160,8 @@ const Selector = () => {
         // Using verified working credentials (from user's tested URL)
         // Sender Instance: 67E0EABCE7C50
         addField('phone', userPhone); 
-        addField('instance_id', '67E0EABCE7C50'); 
-        addField('access_token', '67810e992a65e');
+        addField('instance_id', '692B487D285FA'); 
+        addField('access_token', '66d137a48208a');
         addField('message', userMessage);
 
         console.log("Submitting hidden WhatsApp form to:", userPhone);
